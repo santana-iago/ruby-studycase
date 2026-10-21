@@ -22,7 +22,7 @@ java -cp comparacoes/java Main
 
 O teste Python compara saídas e a resolução de métodos do exemplo com MRO. O Node executa dois exemplos e compara as saídas com resultados esperados. O Java mostra o contraste entre o primitivo int e Integer como objeto; o C# fica como exemplo conceitual, pois requer compilador .NET próprio e não está coberto pelos testes.
 
-O GitHub Actions roda Ruby, Python, JavaScript e Java em ambiente limpo. A parte de Rails **não está incluída no CI**: é uma demonstração para colar em um projeto gerado com rails new; veja rails_demo/README.md.
+O GitHub Actions roda Ruby, Python, JavaScript e Java em ambiente limpo.
 
 ## Limites honestos do estudo
 
@@ -35,4 +35,4 @@ O GitHub Actions roda Ruby, Python, JavaScript e Java em ambiente limpo. A parte
 
 ## Primeira execução automática
 
-O workflow foi executado no commit ced93480dd43976a201e38119afe56b550725f0b, com conclusão **success** em 21/10/2026. [Ver execução no GitHub Actions](https://github.com/santana-iago/ruby-studycase/actions/runs/39527272097). Essa execução valida apenas as tarefas incluídas no workflow, não os arquivos Rails e C#.
+O workflow foi executado no commit ced93480dd43976a201e38119afe56b550725f0b, com conclusão **success** em 21/10/2026. [Ver execução no GitHub Actions](https://github.com/santana-iago/ruby-studycase/actions/runs/39527272097). Essa execução valida apenas as tarefas incluídas no workflow, não o exemplo complementar em C#.

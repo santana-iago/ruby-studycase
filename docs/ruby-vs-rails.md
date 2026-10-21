@@ -2,7 +2,7 @@
 
 O Ruby on Rails colocou Ruby diante de muito mais gente. O que chamou atenção foi a quantidade de convenções que o framework resolve: estrutura de aplicação, MVC, rotas, ORM, migrations, validations, renderização e testes. Ruby, por sua vez, oferece blocos, reflexão, metaprogramação, módulos e uma sintaxe enxuta. O Rails usa essas ferramentas para criar uma linguagem de domínio para aplicações web.
 
-No exemplo 05 do trabalho, escrevi a expressão 'opcao :cache, padrao: true'. Ela parece uma declaração especial, mas é só uma chamada de método executada no corpo da classe. O Rails faz algo parecido quando escrevemos 'validates :cliente, presence: true' ou 'has_many :pedidos'. A declaração é Ruby; o comportamento implementado é do framework.
+No exemplo 05 do trabalho, escrevi a expressão 'opcao :cache, padrao: true'. Ela parece uma declaração especial, mas é só uma chamada de método executada no corpo da classe. O Rails faz algo parecido quando escrevemos 'validates :cliente, presence: true' ou 'has_many :comentarios'. A declaração é Ruby; o comportamento implementado é do framework.
 
 **Ruby puro:** posso escrever scripts, ferramentas CLI, parsers, pequenos serviços, tarefas de automação e bibliotecas sem carregar toda a estrutura de uma aplicação web. Boa liberdade para criar APIs expressivas.
 

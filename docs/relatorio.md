@@ -11,7 +11,7 @@ Conheci Ruby há alguns anos, lendo o Fabio Akita no blog AkitaOnRails. É curio
 
 O que me prende na linguagem é que ela trata valores como objetos e permite recuperar, combinar e até construir comportamentos em tempo de execução. Mas minha impressão não é que a linguagem seja mágica. A mesma liberdade que deixa código elegante pode virar abuso de metaprogramação. Conhecer Ruby em profundidade serve justamente para separar uma solução bem pensada de uma esperteza desnecessária.
 
-É quase impossível não associar Ruby a Ruby on Rails. A popularização do framework explica boa parte disso, mas Ruby é a linguagem e Rails é um conjunto de bibliotecas e convenções. Ao longo do relatório eu separo os dois. Os **oito exemplos abaixo são Ruby puro**, sem gems; as comparações e a demonstração em Rails ficam como contexto.
+É quase impossível não associar Ruby a Ruby on Rails. A popularização do framework explica boa parte disso, mas Ruby é a linguagem e Rails é um conjunto de bibliotecas e convenções. Ao longo do relatório eu separo os dois. Os **oito exemplos abaixo são Ruby puro**, sem gems; as comparações e as referências ao Rails ficam como contexto.
 
 ## 1. Tudo é objeto — até o operador de soma
 
@@ -96,8 +96,6 @@ O que me prende na linguagem é que ela trata valores como objetos e permite rec
 ## E o Rails?
 
 Quando penso em aplicação web convencional — rotas, banco, validação, CRUD, organização de controller e testes — entendo muito bem o sucesso de Rails. Ele pega a expressividade do Ruby e acrescenta convenções, ferramentas e integração. Um validação do ActiveRecord parece quase português: validates :cliente, presence: true. Mas não existe esse método no Ruby puro: é o framework criando sua própria DSL.
-
-Quis deixar no [diretório rails_demo](../rails_demo/) o mesmo domínio de pedidos usado nos exemplos. A diferença fica concreta: em Ruby escrevo um Hash e faço pattern matching; em Rails defino um model, persistência, validação, endpoints REST e migration. A aplicação Rails de demonstração é um conjunto de arquivos para inserir num projeto Rails gerado, não foi testada aqui e não faz parte dos oito exemplos de dez linhas.
 
 Eu não escolheria Rails para tudo. Bibliotecas de IA e ciência de dados puxam muita gente para Python. Para infraestrutura de baixo nível, existem ferramentas mais apropriadas. A melhor linguagem sempre depende do problema, das bibliotecas e da equipe. Isso aparece até no artigo recente do Akita que compara linguagens na programação com LLMs [7].
 

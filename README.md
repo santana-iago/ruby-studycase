@@ -11,7 +11,6 @@ Não acredito em uma linguagem universalmente melhor. Quero entender o que Ruby 
 - **exemplos/ruby/**: oito exemplos independentes de Ruby puro, cada um com **no máximo dez linhas**. Estes são os oito exemplos do trabalho.
 - **comparacoes/**: programas de comparação em Java, JavaScript, Python e C#. São experimentos complementares; não entram no limite de linhas dos oito exemplos.
 - **test/**: testes dos oito exemplos e das comparações em Python/JavaScript.
-- **rails_demo/**: pequenos arquivos de uma aplicação Rails, para observar o que é da linguagem e o que o framework acrescenta. É um conjunto de arquivos para inserir numa aplicação gerada com Rails, não uma aplicação pronta para iniciar sozinha.
 - **docs/relatorio.md**: texto do relatório com Código, Explicação, Justificativa e comparação para cada exemplo.
 - **docs/fontes.md**, **docs/testes.md** e **docs/ruby-vs-rails.md**: referências, instruções de reprodução e limitações.
 
@@ -47,7 +46,7 @@ Há um workflow do GitHub Actions em .github/workflows/testes.yml para executar 
 
 ## Sobre Ruby e Rails
 
-Ruby não é Rails. Ruby é a linguagem. Rails é um framework web construído com ela. A associação é compreensível: Rails popularizou Ruby em aplicações web e tira muito proveito da expressividade da linguagem para criar DSLs como validações, rotas e consultas. Mas o objeto do trabalho são **oito recursos de Ruby puro**. O exemplo Rails serve para enxergar uma aplicação prática de ideias que já existem na linguagem.
+Ruby não é Rails. Ruby é a linguagem. Rails é um framework web construído com ela. A associação é compreensível: Rails popularizou Ruby em aplicações web e tira muito proveito da expressividade da linguagem para criar DSLs como validações, rotas e consultas. Mas o objeto do trabalho são **oito recursos de Ruby puro**. As menções ao Rails aqui são comparações conceituais, sem uma aplicação Rails neste repositório.
 
 ## Autoria e fontes
 
