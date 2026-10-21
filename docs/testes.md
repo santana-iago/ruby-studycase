@@ -32,3 +32,7 @@ O GitHub Actions roda Ruby, Python, JavaScript e Java em ambiente limpo. A parte
 - Um exemplo com MRO do Python não é uma implementação idêntica de prepend.
 - Não interpretei saídas de exemplos como benchmark de memória, velocidade ou escalabilidade.
 - Os prints do relatório representam saídas da execução Ruby e podem ser regenerados localmente pelo comando ruby.
+
+## Primeira execução automática
+
+O workflow foi executado no commit ced93480dd43976a201e38119afe56b550725f0b, com conclusão **success** em 21/10/2026. [Ver execução no GitHub Actions](https://github.com/santana-iago/ruby-studycase/actions/runs/39527272097). Essa execução valida apenas as tarefas incluídas no workflow, não os arquivos Rails e C#.
