@@ -1,0 +1,28 @@
+name: Testes do estudo
+on:
+  push:
+  pull_request:
+jobs:
+  exemplos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Ruby puro
+        run: ruby test/test_exemplos.rb
+      - name: Comparacoes Python
+        run: python3 -m unittest discover -s test -p 'test_python.py'
+      - name: Comparacoes JavaScript
+        run: node --test test/test_javascript.mjs
+      - name: Comparacao Java
+        run: |
+          javac comparacoes/java/Main.java
+          java -cp comparacoes/java Main

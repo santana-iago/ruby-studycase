@@ -1,0 +1,15 @@
+.DS_Store
+*.log
+*.pyc
+__pycache__/
+*.class
+*.dll
+*.exe
+*.pdb
+bin/
+obj/
+coverage/
+tmp/
+.bundle/
+vendor/bundle/
+.env
