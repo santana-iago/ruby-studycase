@@ -25,3 +25,6 @@ As fontes abaixo inspiraram a escolha dos temas. Os oito códigos deste projeto 
 ## Uma ressalva importante
 
 Os artigos do Akita sobre Ruby de 2007 a 2009 ajudam a entender o modelo da linguagem, mas alguns exemplos e APIs da época envelheceram. Por isso os snippets desta pesquisa foram testados com Ruby 3.3.8 e a documentação contemporânea foi usada para conferir conceitos. Para uma conclusão sobre popularidade, misturar medidas diferentes (vagas, repositórios, perguntas, porcentagens de survey) produz mais ruído do que resposta.
+
+15. [Ruby 3.3 — Enumerator::Lazy](https://docs.ruby-lang.org/en/3.3/Enumerator/Lazy.html) — avaliação sob demanda no exemplo 04.
+16. [Ruby 3.3 — Pattern matching](https://docs.ruby-lang.org/en/3.3/syntax/pattern_matching_rdoc.html) — estruturas e captura no exemplo 08.
